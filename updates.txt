@@ -1,0 +1,6 @@
+This extension is developed as part of a large study of web tracking. We wish to collect your data anonymously to help understand tracking around the world. If you agree, please press OK below. If you press NO, then your data will NOT be collected, but you will still be able to use our extension. You can change your mind at any time by simply changing the auto data collect setting on the left. 
+
+OK, collect data anonymously for research. 
+No, please do not use my data
+
+You have cancelled data collection (not support)

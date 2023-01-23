@@ -468,6 +468,13 @@ const viz = {
 			for (var e in nodes_pairs) {
 				firstnode = nodes_pairs[e][0];
 				nextnode = nodes_pairs[e][1];
+				//console.log(a,firstnode.hostname,nextnode.hostname);
+					//id or Ads param: tid=/cid=/uid=/dr=/cn=/cs=/ci=/gclid=/dclid=/
+					//Browser info:  sr=/vp=/de=/sd=/ul=/je=/fl=/cd=/sh=/sw=
+					//Apps:  an=/aid=/av=/aiid=/
+					//Tracking event Value:  ev=
+					//Electric Transaction:  ti=/ta=/cu=
+					//SNS:  sn=/sa=/st=
 					const sx = firstnode.fx || firstnode.x;
 					const sy = firstnode.fy || firstnode.y;
 					const tx = nextnode.fx || nextnode.x;
@@ -508,7 +515,73 @@ const viz = {
 	
 	
 	
-	
+	/*nodes_pairs=arrSlice(nodesarr);
+	for (var e in nodes_pairs) {
+		firstnode = nodes_pairs[e][0];
+		nextnode = nodes_pairs[e][1];
+		if (String(firstnode)!='undefined' && String(nextnode)!='undefined'){
+			if (String(firstnode.info)!='undefined' && String(nextnode.info)!='undefined'){
+				var intersection = firstnode.info.filter(v => nextnode.info.includes(v))
+				if (intersection.length>0){
+					console.log(intersection,firstnode.hostname,nextnode.hostname);
+					//id or Ads param: tid=/cid=/uid=/dr=/cn=/cs=/ci=/gclid=/dclid=/
+					//Browser info:  sr=/vp=/de=/sd=/ul=/je=/fl=/cd=/sh=/sw=
+					//Apps:  an=/aid=/av=/aiid=/
+					//Tracking event Value:  ev=
+					//Electric Transaction:  ti=/ta=/cu=
+					//SNS:  sn=/sa=/st=
+					const sx = firstnode.fx || firstnode.x;
+					const sy = firstnode.fy || firstnode.y;
+					const tx = nextnode.fx || nextnode.x;
+					const ty = nextnode.fy || nextnode.y;
+					this.context.moveTo(sx, sy);
+					this.context.lineTo(tx, ty);
+				}
+			}
+			if (firstnode.cookies.length > 0 && nextnode.cookies.length > 0){
+				firstcookies=firstnode.cookies.map(items=>[items.name,items.value]);
+				nextcookies=nextnode.cookies.map(items=>[items.name,items.value]);
+				var intersect_cookie = firstcookies.filter(v => nextcookies.includes(v))
+				//console.log(firstcookies,nextcookies);
+				if (intersect_cookie.length>0){
+					console.log(intersect_cookie,firstnode.hostname,nextnode.hostname);
+					const sx = firstnode.fx || firstnode.x;
+					const sy = firstnode.fy || firstnode.y;
+					const tx = nextnode.fx || nextnode.x;
+					const ty = nextnode.fy || nextnode.y;
+					this.context.moveTo(sx, sy);
+					this.context.lineTo(tx, ty);
+				}
+			}
+		}
+    }*/
+		
+	/*	
+    for (var e in nodesarr) {
+		next=parseInt(e)+1;
+		if (String(nodesarr[e])!='undefined' && String(nodesarr[next])!='undefined'){
+			if (String(nodesarr[e].info)!='undefined' && String(nodesarr[next].info)!='undefined'){
+				var intersection = nodesarr[e].info.filter(v => nodesarr[next].info.includes(v))
+				if (intersection.length>0){
+					//console.log(intersection,nodesarr[e].hostname,nodesarr[next].hostname);
+					//id or Ads param: tid=/cid=/uid=/dr=/cn=/cs=/ci=/gclid=/dclid=/
+					//Browser info:  sr=/vp=/de=/sd=/ul=/je=/fl=/cd=/sh=/sw=
+					//Apps:  an=/aid=/av=/aiid=/
+					//Tracking event Value:  ev=
+					//Electric Transaction:  ti=/ta=/cu=
+					//SNS:  sn=/sa=/st=
+					const sx = nodesarr[e].fx || nodesarr[e].x;
+					const sy = nodesarr[e].fy || nodesarr[e].y;
+					const tx = nodesarr[next].fx || nodesarr[next].x;
+					const ty = nodesarr[next].fy || nodesarr[next].y;
+					this.context.moveTo(sx, sy);
+					this.context.lineTo(tx, ty);
+				}
+				
+		}
+		}
+		
+    }*/
     this.context.closePath();
 	this.context.lineWidth = 1;
     this.context.strokeStyle = 'red';
