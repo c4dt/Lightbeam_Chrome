@@ -3,7 +3,7 @@ const storeChildObject = {
 
   init() {
     chrome.runtime.onMessage.addListener((m) => {
-      console.log("this?");
+      //console.log("this?");
       this.messageHandler(m);
     });
   },
@@ -15,17 +15,17 @@ const storeChildObject = {
   },
 
   onUpdate(callback) {
-    console.log("a");
+    //console.log("a");
     this.callbacks.add(callback);
   },
 
   messageHandler(m) {
-    console.log("thise");
+    //console.log("thise");
     if (m.type !== 'storeChildCall') {
-      console.log("here?");
+      //console.log("here?");
       return;
     }
-    console.log("m.args",m.args);
+    //console.log("m.args",m.args);
     const args = m.args;
     return this.update(...args);
   },

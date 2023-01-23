@@ -7,6 +7,7 @@ function tldurl(domain){
 		return url('domain',domain);
 	}
 	if (String(url('domain',domain))=='undefined'){
+		//return domain.replace(/^\.|www\.+|\s+$/g, "");
 		return domain;
 	}
 }
@@ -149,7 +150,16 @@ async isFirstRun() {
 	  localStorage.setItem('isFirstRun',0);
     }
     return isFirstRun;
-	
+	/*
+	let isFirstRun = await chrome.storage.local.get('isFirstRun');
+    if (! ('isFirstRun' in isFirstRun)) {
+      isFirstRun = true;
+    } else if (isFirstRun) {
+      isFirstRun = false;
+    }
+    await chrome.storage.local.set({ isFirstRun });
+    return isFirstRun;
+	*/
   },
   indexes: [
     'hostname', // Primary key
@@ -179,6 +189,7 @@ async isFirstRun() {
   ],
   categories: [
     'essential',
+    //'business_connect',
     'analysis',
     'advertising',
     'redirect',
@@ -205,6 +216,7 @@ async isFirstRun() {
     this.db_s.open();
   },
 
+  // get Disconnect Entity List from shavar-prod-lists submodule
   async getAllowList() {
     let allowList;
     try {
@@ -213,6 +225,7 @@ async isFirstRun() {
     } catch (error) {
       allowList = {};
       const explanation = 'See README.md for how to import submodule file';
+      // eslint-disable-next-line no-console
       console.error(`${error.message} ${explanation} ${this.ALLOWLIST_URL}`);
     }
     const { firstPartyAllowList, thirdPartyAllowList }
@@ -245,6 +258,7 @@ async isFirstRun() {
     };
   },
 
+  // send message to storeChild when data in store is changed
   updateChild(...args) {
     return chrome.runtime.sendMessage({
       type: 'storeChildCall',
@@ -254,6 +268,7 @@ async isFirstRun() {
 
   messageHandler(m) {
     if (m.type !== 'storeCall') {
+      //console.log("not storeCall?");
       return;
     }
 
@@ -589,12 +604,15 @@ async isFirstRun() {
       thirdParty['firstPartyHostnames'].push(origin);
     }
 
+    // add link in first party if it doesn't exist yet
+    // and the third party is visible (i.e. not allowlisted)
     if (!this.isFirstPartyLinkedToThirdParty(firstParty, target)) {
       if (!this.isVisibleThirdParty(thirdParty)) {
         if (this.onAllowList(origin, target)) {
           // hide third party
           thirdParty['isVisible'] = false;
         } else {
+          // show third party; it either became visible or is brand new
           thirdParty['isVisible'] = true;
           isNewThirdParty = true;
           for (let i = 0; i < thirdParty['firstPartyHostnames'].length; i++) {

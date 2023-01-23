@@ -1,35 +1,21 @@
 {
-  "manifest_version": 2,
-  "name": "Thunderbeam-Lightbeam for Chrome",
-  "version": "3.0.9",
-  "description": "Thunderbeam-Lightbeam for Chrome uses interactive visualizations to show users the relationship under third parties.",
-
-
-  "icons": {
-    "48": "images/lightbeam-48.png",
-    "96": "images/lightbeam-96.png"
-  },
-
-  "permissions": [
-    "webRequest",
-    "<all_urls>",
-    "tabs",
-    "cookies",
-    "downloads"
-  ],
-
-  "browser_action": {
-    "default_icon": "images/lightbeam-48.png",
-    "default_title": "Thunderbeam-Chrome Lightbeam",
-	"default_popup": "index.html"
-  },
-
-  "background": {
-    "scripts": [
-      "ext-libs/dexie.js",
-      "js/store.js",
-      "js/capture.js",
-      "js/background.js"
-    ]
-  }
+   "background": {
+      "scripts": [ "ext-libs/dexie.js", "js/store.js", "js/capture.js", "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/lightbeam-48.png",
+      "default_popup": "index.html",
+      "default_title": "Thunderbeam-Chrome Lightbeam"
+   },
+   "description": "Thunderbeam-Lightbeam for Chrome uses interactive visualizations to show users the relationship under third parties.",
+   "icons": {
+      "48": "images/lightbeam-48.png",
+      "96": "images/lightbeam-96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkQNSf/3lEtLAMzDR/+I/Nh8F0Tsh2VcdvjNSxdiSQvr8j41shztM3yrgNMDEgy8EZlQacehPiPbrIJzDnq7cDcvEoEmJzp0BVV3nFv4b+ALgYPkaqPlnNEuQE3o9GVSq45zwoi8EomCB+1P1BYDyyUH+B4YU2JXUkeVPQOu4cp9cLWn1MnuNdsYMmBeWr8jH/m8mkcl+d8uhUQplbC2u8y+SM5gZwFOeos3hAE7Gj+DyK9h1izP6zRBw1ieIceWc5IJWN+JZ63C74T9dbE9ItFTR8yJFKqt0EdKaVq6zG5uymlOAm13mzlnUTKaIy6WsJdMJ6K8P4oNBXgztuCvX2QIDAQAB",
+   "manifest_version": 2,
+   "name": "Thunderbeam-Lightbeam for Chrome",
+   "permissions": [ "webRequest", "\u003Call_urls>", "tabs", "cookies", "downloads" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.1.2"
 }
