@@ -7193,7 +7193,7 @@
   ],
   "polarcdn-pentos.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "polarcdn-static.com": [
     "advertising"
@@ -7392,7 +7392,7 @@
   ],
   "brightcove.net": [
     "tracking",
-	"social"
+    "social"
   ],
   "budgetedbauer.com": [
     "tracking"
@@ -7429,7 +7429,7 @@
   ],
   "crispadvertising.com": [
     "tracking",
-	"advertising"
+    "advertising"
   ],
   "crisppremium.com": [
     "tracking"
@@ -7721,7 +7721,7 @@
   ],
   "naver.net": [
     "advertising",
-	"social"
+    "social"
   ],
   "infra.systems": [
     "advertising"
@@ -7904,7 +7904,7 @@
   ],
   "acuityplatform.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "a2dfp.net": [
     "advertising"
@@ -8080,7 +8080,7 @@
   ],
   "adrtx.net": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "adaptiveads.com": [
     "advertising"
@@ -8099,7 +8099,7 @@
   ],
   "adbrn.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "adbrain.com": [
     "advertising"
@@ -8173,7 +8173,7 @@
   ],
   "adlucent.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "admarketplace.com": [
     "advertising"
@@ -8282,7 +8282,7 @@
   ],
   "googleadservices.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "smtad.net": [
     "advertising"
@@ -8349,7 +8349,7 @@
   ],
   "adworx.at": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "adworx.be": [
     "advertising"
@@ -8516,7 +8516,7 @@
   ],
   "adgrx.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "buzzcity.com": [
     "advertising"
@@ -8639,7 +8639,7 @@
   ],
   "btrll.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "brighttag.com": [
     "advertising"
@@ -8677,7 +8677,7 @@
   ],
   "buysellads.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "buysight.com": [
     "advertising"
@@ -8755,7 +8755,7 @@
   ],
   "choicestream.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "clearsaleing.com": [
     "advertising"
@@ -9008,7 +9008,7 @@
   ],
   "w55c.net": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "nextaction.net": [
     "advertising"
@@ -9018,7 +9018,7 @@
   ],
   "pro-market.net": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "datranmedia.com": [
     "advertising"
@@ -9115,7 +9115,7 @@
   ],
   "adsymptotic.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "drawbrid.ge": [
     "advertising"
@@ -9358,7 +9358,7 @@
   ],
   "fout.jp": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "freedom.com": [
     "advertising"
@@ -9440,7 +9440,7 @@
   ],
   "gemius.pl": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "genesismediaus.com": [
     "advertising"
@@ -9456,8 +9456,8 @@
   ],
   "adhigh.net": [
     "advertising",
-	"optimization",
-	"tracking"
+    "optimization",
+    "tracking"
   ],
   "getintent.com": [
     "advertising"
@@ -9624,7 +9624,7 @@
   ],
   "360yield.com": [
     "advertising",
-	"optimization"
+    "optimization"
   ],
   "improvedigital.com": [
     "advertising"
@@ -10303,11 +10303,11 @@
   ],
   "netmng.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "adadvisor.net": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "neustar.biz": [
     "advertising"
@@ -10332,7 +10332,7 @@
   ],
   "networkedblogs.com": [
     "advertising",
-	"social"
+    "social"
   ],
   "ninua.com": [
     "advertising"
@@ -10863,13 +10863,13 @@
   ],
   "salesforce.com": [
     "advertising",
-	"social"
+    "social"
   ],
   "ants.vn": [
-	"social"
+    "social"
   ],
   "feedify.net": [
-	"social"
+    "social"
   ],
   "samurai-factory.jp": [
     "advertising"
@@ -11208,7 +11208,7 @@
   ],
   "carbonads.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "tinder.com": [
     "advertising"
@@ -11814,7 +11814,7 @@
   ],
   "adrolays.de": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "adyard.de": [
     "advertising"
@@ -11848,7 +11848,7 @@
   ],
   "dianomi.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "gopjn.com": [
     "advertising"
@@ -12157,7 +12157,7 @@
   "abmr.net": [
     "essential",
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "akamai.com": [
     "business_connect"
@@ -12297,7 +12297,7 @@
   ],
   "gigya.com": [
     "essential",
-	"tracking"
+    "tracking"
   ],
   "globaltakeoff.com": [
     "essential"
@@ -12328,163 +12328,163 @@
   ],
   "google.ad": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.ae": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.af": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.ag": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.ai": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.al": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.am": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.co.ao": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.ar": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.as": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.at": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.au": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.az": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.ba": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.bd": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.be": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.bf": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.bg": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.bh": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.bi": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.bj": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.bn": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.bo": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.br": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.bs": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.bt": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.co.bw": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.by": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.bz": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.ca": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.cd": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.cf": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.cg": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.ch": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.ci": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.co.ck": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.cl": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.cm": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.cn": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.co": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "googlemail.com": [
     "essential"
@@ -12494,599 +12494,599 @@
   ],
   "google.co.cr": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.cu": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.cv": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.cy": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.cz": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.de": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.dj": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.dk": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.dm": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.do": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.dz": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.ec": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.ee": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.eg": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.es": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.et": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.fi": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.fj": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.fm": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.fr": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.ga": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.ge": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.gg": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.gh": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.gi": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.gl": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.gm": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.gp": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.gr": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.gt": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.gy": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.hk": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.hn": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.hr": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.ht": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.hu": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.co.id": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.ie": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.co.il": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.im": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.co.in": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.iq": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.is": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.it": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.je": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.jm": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.jo": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.co.jp": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.co.ke": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.kh": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.ki": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.kg": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.co.kr": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.kw": [
-   "business_connect",
-	"tracking"
+    "business_connect",
+    "tracking"
   ],
   "google.kz": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.la": [
     "essential",
-	"tracking"
+    "tracking"
   ],
   "google.com.lb": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.li": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.lk": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.co.ls": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.lt": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.lu": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.lv": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.ly": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.co.ma": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.md": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.me": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.mg": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.mk": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.ml": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.mm": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.mn": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.ms": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.mt": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.mu": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.mv": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.mw": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.mx": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.my": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.co.mz": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.na": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.nf": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.ng": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.ni": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.ne": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.no": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.np": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.nr": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.nu": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.co.nz": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.om": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.pa": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.pe": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.pg": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.ph": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.pk": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.pl": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.pn": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.pr": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.ps": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.pt": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.py": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.qa": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.ro": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.ru": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.rw": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.sa": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.sb": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.sc": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.se": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.sg": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.sh": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.si": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.sk": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.sl": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.sn": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.so": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.sm": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.st": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.sv": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.td": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.tg": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.co.th": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.tj": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.tk": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.tl": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.tm": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.tn": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.to": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.tr": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.tt": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.tw": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.co.tz": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.ua": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.co.ug": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.uy": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.co.uz": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.vc": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.co.ve": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.vg": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.co.vi": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.com.vn": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.vu": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.ws": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.rs": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.co.za": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.co.zm": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.co.zw": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "google.cat": [
     "business_connect",
-	"tracking"
+    "tracking"
   ],
   "googleartproject.com": [
     "essential"
@@ -13541,12 +13541,12 @@
   ],
   "adobedtm.com": [
     "analysis",
-	"tracking"
+    "tracking"
   ],
   "adventori.com": [
     "analysis",
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "amadesa.com": [
     "analysis"
@@ -13682,7 +13682,7 @@
   ],
   "do-not-tracker.org": [
     "analysis",
-	"tracking"
+    "tracking"
   ],
   "eloqua.com": [
     "optimization"
@@ -13753,7 +13753,7 @@
   ],
   "raasnet.com": [
     "analysis",
-	"tracking"
+    "tracking"
   ],
   "redaril.com": [
     "analysis"
@@ -13792,7 +13792,7 @@
   ],
   "ioam.de": [
     "analysis",
-	"tracking"
+    "tracking"
   ],
   "enquisite.com": [
     "analysis"
@@ -14005,7 +14005,7 @@
   ],
   "getclicky.com": [
     "analysis",
-	"tracking"
+    "tracking"
   ],
   "roxr.net": [
     "analysis"
@@ -14413,7 +14413,7 @@
   ],
   "ipredictive.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "admatrix.jp": [
     "advertising"
@@ -33838,7 +33838,7 @@
   ],
   "xinhuanet.com": [
     "business_connect",
-	"essential"
+    "essential"
   ],
   "diply.com": [
     "business_connect"
@@ -34712,11 +34712,11 @@
   ],
   "abtasty.com": [
     "optimization",
-	"tracking"
+    "tracking"
   ],
   "ampproject.org": [
     "essential",
-	"tracking"
+    "tracking"
   ],
   "tmvtp.com": [
     "analysis"
@@ -34769,7 +34769,7 @@
   ],
   "adblade.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "adzip.co": [
     "advertising"
@@ -34824,7 +34824,7 @@
   ],
   "adkernel.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "adkontekst.pl": [
     "advertising"
@@ -34849,7 +34849,7 @@
   ],
   "admedo.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "unknowntray.com": [
     "advertising"
@@ -34862,7 +34862,7 @@
   ],
   "admixer.net": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "adserver01.de": [
     "advertising"
@@ -34875,7 +34875,7 @@
   ],
   "scene7.com": [
     "essential",
-	"tracking"
+    "tracking"
   ],
   "typekit.com": [
     "essential"
@@ -34901,7 +34901,7 @@
   ],
   "adscale.de": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "adscience.nl": [
     "advertising"
@@ -34926,7 +34926,7 @@
   ],
   "adx1.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "adtpix.com": [
     "advertising"
@@ -34940,7 +34940,7 @@
   "audienceinsights.net": [
     "analysis",
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "awempire.com": [
     "advertising"
@@ -34953,7 +34953,7 @@
   ],
   "condenastdigital.com": [
     "optimization",
-	"tracking"
+    "tracking"
   ],
   "condenet.com": [
     "optimization"
@@ -34982,7 +34982,7 @@
   ],
   "adzerk.net": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "aerserv.com": [
     "advertising"
@@ -35538,7 +35538,7 @@
   ],
   "richmetrics.com": [
     "analysis",
-	"tracking"
+    "tracking"
   ],
   "message-business.com": [
     "advertising"
@@ -35561,7 +35561,7 @@
   ],
   "c1exchange.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "c3tag.com": [
     "analysis"
@@ -35678,7 +35678,7 @@
   ],
   "mncdn.com": [
     "essential",
-	"social"
+    "social"
   ],
   "fastestcdn.net": [
     "essential"
@@ -35749,7 +35749,7 @@
   ],
   "cint.com": [
     "essential",
-	"tracking"
+    "tracking"
   ],
   "openh264.org": [
     "essential"
@@ -35762,7 +35762,7 @@
   ],
   "clrstm.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "clerk.io": [
     "optimization"
@@ -35781,7 +35781,7 @@
   ],
   "clickagy.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "clickdesk.com": [
     "essential"
@@ -35845,14 +35845,14 @@
   ],
   "cogocast.net": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "colbenson.com": [
     "optimization"
   ],
   "collective-media.net": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "gdimg.net": [
     "essential"
@@ -35893,11 +35893,11 @@
   ],
   "comscore.com": [
     "analysis",
-	"tracking"
+    "tracking"
   ],
   "zqtk.net": [
     "analysis",
-	"tracking"
+    "tracking"
   ],
   "conductrics.com": [
     "optimization"
@@ -36011,7 +36011,7 @@
   ],
   "afy11.net": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "cpex.cz": [
     "optimization"
@@ -36071,7 +36071,7 @@
   ],
   "cxense.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "cxpublic.com": [
     "advertising"
@@ -36131,7 +36131,7 @@
   ],
   "nexac.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "dpmsrv.com": [
     "advertising"
@@ -36492,7 +36492,7 @@
   ],
   "eqads.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "ixiaa.com": [
     "advertising"
@@ -36714,11 +36714,11 @@
   "wishabi.net": [
     "optimization",
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "flite.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "flix360.com": [
     "optimization"
@@ -36764,7 +36764,7 @@
   ],
   "fqtag.com": [
     "optimization",
-	"tracking"
+    "tracking"
   ],
   "fortawesome.com": [
     "essential"
@@ -36812,7 +36812,7 @@
   ],
   "fwmrm.net": [
     "essential",
-	"tracking"
+    "tracking"
   ],
   "fresh8.co": [
     "advertising"
@@ -36879,7 +36879,7 @@
   ],
   "gssprt.jp": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "href.asia": [
     "advertising"
@@ -36941,7 +36941,7 @@
   ],
   "globalwebindex.net": [
     "analysis",
-	"tracking"
+    "tracking"
   ],
   "globase.com": [
     "advertising"
@@ -37167,7 +37167,7 @@
   ],
   "ibillboard.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "coremetrics.eu": [
     "analysis"
@@ -37228,7 +37228,7 @@
   ],
   "igodigital.com": [
     "optimization",
-	"tracking"
+    "tracking"
   ],
   "telephonesky.com": [
     "essential"
@@ -37331,7 +37331,7 @@
   ],
   "adsafeprotected.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "ist-track.com": [
     "advertising"
@@ -38048,7 +38048,7 @@
   ],
   "azurewebsites.net": [
     "essential",
-	"tracking"
+    "tracking"
   ],
   "bat.r.msn.com": [
     "advertising"
@@ -38157,7 +38157,7 @@
   ],
   "fonts.net": [
     "essential",
-	"tracking"
+    "tracking"
   ],
   "mwdev.co.uk": [
     "advertising"
@@ -38886,7 +38886,7 @@
   ],
   "dpclk.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "h4k5.com": [
     "analysis"
@@ -39567,7 +39567,7 @@
   ],
   "fallingfalcon.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "decenthat.com": [
     "advertising"
@@ -39768,7 +39768,7 @@
   ],
   "commander1.com": [
     "essential",
-	"tracking"
+    "tracking"
   ],
   "tagcommander.com": [
     "essential"
@@ -40608,7 +40608,7 @@
   ],
   "imgix.net": [
     "essential",
-	"tracking"
+    "tracking"
   ],
   "zyen.com": [
     "essential"
@@ -40671,11 +40671,11 @@
   ],
   "googleusercontent.com": [
     "analysis",
-	"tracking"
+    "tracking"
   ],
   "googletagmanager.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "ytimg.com": [
     "essential"
@@ -40710,11 +40710,11 @@
   ],
   "google-analytics.com": [
     "analysis",
-	"tracking"
+    "tracking"
   ],
   "googletagservices.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "googlesyndication.com ": [
     "advertising",
@@ -40730,7 +40730,7 @@
   ],
   "cloudflare.com": [
     "essential",
-	"tracking"
+    "tracking"
   ],
   "amazonaws.com": [
     "advertising",
@@ -40765,7 +40765,7 @@
   ],
   "googleapis.com": [
     "essential",
-	"tracking"
+    "tracking"
   ],
   "scoota.com": [
     "analysis"
@@ -40965,7 +40965,7 @@
   ],
   "ggpht.com": [
     "essential",
-	"tracking"
+    "tracking"
   ],
   "dwin1.com": [
     "tracking"
@@ -41150,7 +41150,7 @@
   ],
   "digitru.st": [
     "essential",
-	"tracking"
+    "tracking"
   ],
   "aperfectpocketdata.com": [
     "optimization",
@@ -41159,7 +41159,7 @@
   "disqus.com": [
     "optimization",
     "essential",
-	"tracking"
+    "tracking"
   ],
   "evbstatic.com": [
     "essential",
@@ -41168,7 +41168,7 @@
   "connexity.net": [
     "malware",
     "analysis",
-	"tracking"
+    "tracking"
   ],
   "chartbeat.net": [
     "analysis",
@@ -41307,7 +41307,7 @@
   "brightcove.com": [
     "analysis",
     "essential",
-	"tracking"
+    "tracking"
   ],
   "b2c.com": [
     "analysis"
@@ -41380,7 +41380,7 @@
   ],
   "advertising.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "advertising.net": [
     "advertising"
@@ -41488,7 +41488,7 @@
     "redirect",
     "malware",
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "sitescout.com": [
     "tracking",
@@ -41756,7 +41756,7 @@
   ],
   "media6degrees.com": [
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "readcube.com": [
     "optimization"
@@ -41886,7 +41886,7 @@
     "malware",
     "redirect",
     "advertising",
-	"tracking"
+    "tracking"
   ],
   "scrippsnetworks.com": [
     "tracking"

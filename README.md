@@ -1,29 +1,24 @@
-# Thunderbeam-Lightbeam for Chrome
+# Thunderbeam--Lightbeam for Chrome
 
+This repo is a fork from https://github.com/socsys/Lightbeam_Chrome with the following goals:
 
-################by Rachel Hu################
-################xuehui.hu@kcl.ac.uk###############
+- updated with the actual extension from the store
+- make sure it works on Google Chrome
+- remove all possibilities to send data outside of the browser
+- keep download option
+- use 'main' istead of 'master'
 
-Thunderbeam-Lightbeam for Chrome is the tested version of Chrome Lightbeam.
+After a first try with the plugin, perhaps I can do the following:
 
+- add the icons back to the view of the connections
+- also add the links to the images not from the source site, hoping this will be ads
 
-Tracking-tool is for analysing the json files downloaded from Thunderbeam-Lightbeam for Chrome/Lightbeam for Firefox.
+## License
 
+As the original of the original, https://github.com/mozilla/lightbeam-we, has MPL-2.0, I
+decided to add MPL-2.0 to this, too.
+If you're from socsys, please open an issue if this is a problem for you.
 
+# Usage
 
-Open the Chrome
-Turn to chrome://extensions/
-Thunderbeam-Lightbeam for Chrome is a Google Chrome extension that uses interactive visualizations to show relationships under third parties.
-- Thunderbeam starts recording connections as soon as it's installed.
-
-- To start visualizing your online interactions, open a new tab, navigate to a site, and then check back to the Thunderbeam tab.
-
-- Thunderbeam is used for our research study. If you consent, and only if you consent, your browser data will be used for research. Please note that even for those who consent, no personal data belonging to the users will be used (and data is hashed to prevent re-identification); any data collected will be used only for the purposes of non-commercial research, and all data will be deleted after the research project completes.
-
-- The code behind our plugin is completely open source on github for your inspection. We are happy to receive your feedback (pull requests/issues etc): https://github.com/socsys/Lightbeam_Chrome.
-
-Acknowledgements:
-- Our sincere thanks to the original version of thunderbeam, which is from Firefox (no longer supported, as of October,2019): https://support.mozilla.org/en-US/kb/lightbeam-extension-firefox-no-longer-supported
-
-- Our thanks also to any users who choose to support us by sharing their data. Your work is contributing to our research. Here are some papers published by our study:
-https://nms.kcl.ac.uk/netsys/datasets/tracking-the-trackers-papers/
+This extension is used for a student's project that looks at Web trac(k)ers on a
