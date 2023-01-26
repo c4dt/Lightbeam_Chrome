@@ -303,22 +303,26 @@ const lightbeam = {
 
     resetData() {
         const resetData = document.getElementById('reset-data-button');
-        resetData.addEventListener('click', async () => {
+        if (resetData !== null) {
+            resetData.addEventListener('click', async () => {
 
-            const msgBegin = 'Pressing OK will delete all data.';
-            const msgEnd = 'Are you sure?';
-            const confirmation = confirm(`${msgBegin + msgEnd}`);
-            if (confirmation) {
+                const msgBegin = 'Pressing OK will delete all data.';
+                const msgEnd = 'Are you sure?';
+                const confirmation = confirm(`${msgBegin + msgEnd}`);
+                if (confirmation) {
 
-                await storeChild.reset();
-                window.location.reload();
-            }
+                    await storeChild.reset();
+                    window.location.reload();
+                }
 
-        });
+            });
+        }
     },
 
     redraw(data) {
-        if (!(data.hostname in this.websites)) {
+        if (!(data.hostname in this.websites)
+            || (data.favicon.length > 0)
+            && this.websites[data.hostname].favicon.length === 0) {
             this.websites[data.hostname] = data;
             //this.updateVars(data.firstParty);
         }

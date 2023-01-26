@@ -116,20 +116,28 @@ const capture = {
         // listen for each HTTP response
         this.queue = [];
         chrome.webRequest.onResponseStarted.addListener((response) => {
-                documentUrl = new URL(response.initiator);
-                if ((documentUrl.protocol != 'about:')
-                    && (documentUrl.protocol != 'chrome:')
-                    && (documentUrl.protocol != 'chrome-extension:')
-                    && (documentUrl.protocol != 'chrome-search:')) {
+                if (response.initiator === undefined || response.initiator === null) {
+                    return;
+                }
+                try {
+                    documentUrl = new URL(response.initiator);
+                    if ((documentUrl.protocol != 'about:')
+                        && (documentUrl.protocol != 'chrome:')
+                        && (documentUrl.protocol != 'chrome-extension:')
+                        && (documentUrl.protocol != 'chrome-search:')) {
 
-                    //console.log(response.initiator);
-                    const eventDetails = {
-                        type: 'sendThirdParty',
-                        data: response
-                    };
-                    //console.log("response",response);
-                    this.queue.push(eventDetails);
-                    this.processNextEvent();
+                        //console.log(response.initiator);
+                        const eventDetails = {
+                            type: 'sendThirdParty',
+                            data: response
+                        };
+                        console.log("response", response);
+                        this.queue.push(eventDetails);
+                        this.processNextEvent();
+                    }
+                } catch(e) {
+                    console.log("Error with parsing response: " + e);
+                    console.dir(response);
                 }
             },
             {urls: ['<all_urls>']});
@@ -278,7 +286,8 @@ const capture = {
 
     // capture third party requests
     async sendThirdParty(response) {
-        if (!response.tabId) {
+        if (!response.tabId ||
+            table[response.tabId] === undefined) {
             // originUrl is undefined for the first request from the chrome to the
             // first party site
             return;
@@ -334,7 +343,11 @@ const capture = {
         const documentUrl = new URL(tab.url);
         if (documentUrl.hostname
             && tab.status === 'complete' && await this.shouldStore(tab)) {
+            if (tab.faviconUrl) {
+                console.warn("favicon is: " + tab.faviconUrl);
+            }
             const data = {
+                // faviconUrl: tab.favIconUrl,
                 firstParty: true,
                 requestTime: Date.now()
             };

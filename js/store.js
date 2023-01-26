@@ -380,6 +380,7 @@ const store = {
         //var lastRequest = new Date(website.lastRequestTime);
         const output = {
             hostname: hostname,
+            favicon: website.faviconUrl || '',
             firstPartyHostnames: website.firstPartyHostnames || false,
             firstParty: !!website.firstParty,
             cookies: new Object(),
@@ -516,6 +517,14 @@ const store = {
         return false;
     },
 
+    async hasFavicon(hostname) {
+        const website = await this.db.websites.get(hostname);
+        if (website && website['faviconUrl'] && website['faviconUrl'].length > 0) {
+            return true;
+        }
+        return false;
+    },
+
     getHostnameVariants(hostname) {
         const hostnameVariants = [hostname];
         const hostnameArr = hostname.split('.');
@@ -561,10 +570,11 @@ const store = {
         }
 
         const isNewWebsite = await this.isNewWebsite(hostname);
+        const hasFavicon = await this.hasFavicon(hostname);
 
         const responseData = await this.setWebsite(hostname, data);
 
-        if (isNewWebsite) {
+        if (isNewWebsite || hasFavicon) {
             this.updateChild(this.outputWebsite(hostname, responseData));
         }
     },
